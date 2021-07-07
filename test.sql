@@ -40,9 +40,7 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `name`, `contact`, `email`, `gender`, `profile`) VALUES
-(4, 'Vandita Chapadia', '8363725803', 'kulin123@gmail.com', 'Female', 'Intern'),
-(5, 'Kulin', '8363725123', '18it019@charusat.edu.in', 'Male', 'devops');
+
 
 --
 -- Indexes for dumped tables
