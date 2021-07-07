@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Add Data</title>
+</head>
+
+<body>
+	<a href="index.php">Home</a>
+	<br/><br/>
+
+	<form action="add.php" method="post" name="form1">
+		<table width="25%" border="0">
+			<tr> 
+				<td>Name</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr> 
+				<td>Contact NO:</td>
+				<td><input type="text" name="contact" maxlength="10"></td>
+			</tr>
+			<tr> 
+				<td>Email</td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr> 
+				<td>Gender</td>
+				<td><input type="radio" id="f" name="gender" value="Female">Female</td>
+				<td><input type="radio" id="m" name="gender" value="Male">Male</td>
+			</tr>
+			<tr>
+				<td>Application for Post</td>
+				<td><select name="profile">
+					<option value="">Select...</option>
+					<option value="Intern">Intern</option>
+					<option value="appdev">Application Development</option>
+					<option value="devops">Devops</option>
+				  </select>
+				  </td>
+				</tr>
+			<tr> 
+				<td></td>
+				<td><input type="submit" name="Submit" value="Add"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
+
